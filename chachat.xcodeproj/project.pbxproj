@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45954F32424141C00A66BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F22424141C00A66BE3 /* AppDelegate.swift */; };
+		C45954F52424141C00A66BE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F42424141C00A66BE3 /* SceneDelegate.swift */; };
+		C45954F72424141C00A66BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F62424141C00A66BE3 /* ViewController.swift */; };
+		C45954FA2424141C00A66BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45954F82424141C00A66BE3 /* Main.storyboard */; };
+		C45954FC2424141E00A66BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45954FB2424141E00A66BE3 /* Assets.xcassets */; };
+		C45954FF2424141E00A66BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45954FD2424141E00A66BE3 /* LaunchScreen.storyboard */; };
+		C459550A2424141E00A66BE3 /* chachatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45955092424141E00A66BE3 /* chachatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45955062424141E00A66BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45954E72424141C00A66BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45954EE2424141C00A66BE3;
+			remoteInfo = chachat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C45954EF2424141C00A66BE3 /* chachat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chachat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45954F22424141C00A66BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45954F42424141C00A66BE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C45954F62424141C00A66BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C45954F92424141C00A66BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45954FB2424141E00A66BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45954FE2424141E00A66BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45955002424141E00A66BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45955052424141E00A66BE3 /* chachatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chachatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955092424141E00A66BE3 /* chachatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chachatTests.swift; sourceTree = "<group>"; };
+		C459550B2424141E00A66BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45954EC2424141C00A66BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45955022424141E00A66BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45954E62424141C00A66BE3 = {
+			isa = PBXGroup;
+			children = (
+				C45954F12424141C00A66BE3 /* chachat */,
+				C45955082424141E00A66BE3 /* chachatTests */,
+				C45954F02424141C00A66BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45954F02424141C00A66BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45954EF2424141C00A66BE3 /* chachat.app */,
+				C45955052424141E00A66BE3 /* chachatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45954F12424141C00A66BE3 /* chachat */ = {
+			isa = PBXGroup;
+			children = (
+				C45954F22424141C00A66BE3 /* AppDelegate.swift */,
+				C45954F42424141C00A66BE3 /* SceneDelegate.swift */,
+				C45954F62424141C00A66BE3 /* ViewController.swift */,
+				C45954F82424141C00A66BE3 /* Main.storyboard */,
+				C45954FB2424141E00A66BE3 /* Assets.xcassets */,
+				C45954FD2424141E00A66BE3 /* LaunchScreen.storyboard */,
+				C45955002424141E00A66BE3 /* Info.plist */,
+			);
+			path = chachat;
+			sourceTree = "<group>";
+		};
+		C45955082424141E00A66BE3 /* chachatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C45955092424141E00A66BE3 /* chachatTests.swift */,
+				C459550B2424141E00A66BE3 /* Info.plist */,
+			);
+			path = chachatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45954EE2424141C00A66BE3 /* chachat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C459550E2424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachat" */;
+			buildPhases = (
+				C45954EB2424141C00A66BE3 /* Sources */,
+				C45954EC2424141C00A66BE3 /* Frameworks */,
+				C45954ED2424141C00A66BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chachat;
+			productName = chachat;
+			productReference = C45954EF2424141C00A66BE3 /* chachat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45955042424141E00A66BE3 /* chachatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45955112424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachatTests" */;
+			buildPhases = (
+				C45955012424141E00A66BE3 /* Sources */,
+				C45955022424141E00A66BE3 /* Frameworks */,
+				C45955032424141E00A66BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45955072424141E00A66BE3 /* PBXTargetDependency */,
+			);
+			name = chachatTests;
+			productName = chachatTests;
+			productReference = C45955052424141E00A66BE3 /* chachatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45954E72424141C00A66BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Patatas;
+				TargetAttributes = {
+					C45954EE2424141C00A66BE3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C45955042424141E00A66BE3 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C45954EE2424141C00A66BE3;
+					};
+				};
+			};
+			buildConfigurationList = C45954EA2424141C00A66BE3 /* Build configuration list for PBXProject "chachat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45954E62424141C00A66BE3;
+			productRefGroup = C45954F02424141C00A66BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45954EE2424141C00A66BE3 /* chachat */,
+				C45955042424141E00A66BE3 /* chachatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45954ED2424141C00A66BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45954FF2424141E00A66BE3 /* LaunchScreen.storyboard in Resources */,
+				C45954FC2424141E00A66BE3 /* Assets.xcassets in Resources */,
+				C45954FA2424141C00A66BE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45955032424141E00A66BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45954EB2424141C00A66BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45954F72424141C00A66BE3 /* ViewController.swift in Sources */,
+				C45954F32424141C00A66BE3 /* AppDelegate.swift in Sources */,
+				C45954F52424141C00A66BE3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45955012424141E00A66BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C459550A2424141E00A66BE3 /* chachatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45955072424141E00A66BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45954EE2424141C00A66BE3 /* chachat */;
+			targetProxy = C45955062424141E00A66BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45954F82424141C00A66BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45954F92424141C00A66BE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45954FD2424141E00A66BE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45954FE2424141E00A66BE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C459550C2424141E00A66BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C459550D2424141E00A66BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C459550F2424141E00A66BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chachat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45955102424141E00A66BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chachat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C45955122424141E00A66BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chachatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chachat.app/chachat";
+			};
+			name = Debug;
+		};
+		C45955132424141E00A66BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chachatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chachat.app/chachat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45954EA2424141C00A66BE3 /* Build configuration list for PBXProject "chachat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C459550C2424141E00A66BE3 /* Debug */,
+				C459550D2424141E00A66BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C459550E2424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C459550F2424141E00A66BE3 /* Debug */,
+				C45955102424141E00A66BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45955112424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45955122424141E00A66BE3 /* Debug */,
+				C45955132424141E00A66BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45954E72424141C00A66BE3 /* Project object */;
+}
