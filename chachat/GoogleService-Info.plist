@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1058815446022-pholnkvomv184pbanglumcj5b8kqr7it.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1058815446022-pholnkvomv184pbanglumcj5b8kqr7it</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-OImbR9S4IVjAaX8EvQ5pJV7gcgSx5FU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1058815446022</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.amrao.chachat</string>
+	<key>PROJECT_ID</key>
+	<string>cachat-3fc4b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cachat-3fc4b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1058815446022:ios:572abc388eb30707bd0787</string>
+	<key>DATABASE_URL</key>
+	<string>https://cachat-3fc4b.firebaseio.com</string>
+</dict>
+</plist>

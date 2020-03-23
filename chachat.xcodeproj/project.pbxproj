@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1E049B34B4397AEACFEAC0 /* Pods_chachatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95195E18E5C5CC611B6DFB /* Pods_chachatTests.framework */; };
 		C45954F32424141C00A66BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F22424141C00A66BE3 /* AppDelegate.swift */; };
 		C45954F52424141C00A66BE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F42424141C00A66BE3 /* SceneDelegate.swift */; };
 		C45954F72424141C00A66BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45954F62424141C00A66BE3 /* ViewController.swift */; };
@@ -14,6 +15,11 @@
 		C45954FC2424141E00A66BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45954FB2424141E00A66BE3 /* Assets.xcassets */; };
 		C45954FF2424141E00A66BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45954FD2424141E00A66BE3 /* LaunchScreen.storyboard */; };
 		C459550A2424141E00A66BE3 /* chachatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45955092424141E00A66BE3 /* chachatTests.swift */; };
+		C45955152424156700A66BE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45955142424156700A66BE3 /* GoogleService-Info.plist */; };
+		C4595517242422FF00A66BE3 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4595516242422FF00A66BE3 /* LoginRegisterViewController.swift */; };
+		C45955192424316A00A66BE3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45955182424316A00A66BE3 /* Utilities.swift */; };
+		C459551B2424F9AC00A66BE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C459551A2424F9AC00A66BE3 /* Constants.swift */; };
+		C459551C2425075C00A66BE3 /* Pods_chachat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAB90E88C7D4B155A1D79B /* Pods_chachat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C45954EF2424141C00A66BE3 /* chachat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chachat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5129A73BBEFA27A2B5A3549C /* Pods-chachatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachatTests.debug.xcconfig"; path = "Target Support Files/Pods-chachatTests/Pods-chachatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5435D61DAA4D57FF24A41DB3 /* Pods-chachat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachat.debug.xcconfig"; path = "Target Support Files/Pods-chachat/Pods-chachat.debug.xcconfig"; sourceTree = "<group>"; };
+		56CDA5EB5776814F4B3E30A5 /* Pods-chachat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachat.release.xcconfig"; path = "Target Support Files/Pods-chachat/Pods-chachat.release.xcconfig"; sourceTree = "<group>"; };
+		8B95195E18E5C5CC611B6DFB /* Pods_chachatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chachatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45954EF2424141C00A66BE3 /* ChaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45954F22424141C00A66BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45954F42424141C00A66BE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C45954F62424141C00A66BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +48,20 @@
 		C45955052424141E00A66BE3 /* chachatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chachatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45955092424141E00A66BE3 /* chachatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chachatTests.swift; sourceTree = "<group>"; };
 		C459550B2424141E00A66BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45955142424156700A66BE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4595516242422FF00A66BE3 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		C45955182424316A00A66BE3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C459551A2424F9AC00A66BE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C459551F2425093400A66BE3 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955232425093B00A66BE3 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955262425094100A66BE3 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955292425094600A66BE3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C459552C2425094B00A66BE3 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C459552F2425095100A66BE3 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955322425095600A66BE3 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45955352425096800A66BE3 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4685142978057BDB822798E /* Pods-chachatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachatTests.release.xcconfig"; path = "Target Support Files/Pods-chachatTests/Pods-chachatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8BAB90E88C7D4B155A1D79B /* Pods_chachat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chachat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C459551C2425075C00A66BE3 /* Pods_chachat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,25 +77,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1E049B34B4397AEACFEAC0 /* Pods_chachatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D399542C39A2A67B1AC5D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45955352425096800A66BE3 /* leveldb.framework */,
+				C45955322425095600A66BE3 /* nanopb.framework */,
+				C459552F2425095100A66BE3 /* FirebaseInstallations.framework */,
+				C459552C2425094B00A66BE3 /* FirebaseDatabase.framework */,
+				C45955292425094600A66BE3 /* FirebaseCoreDiagnostics.framework */,
+				C45955262425094100A66BE3 /* FBLPromises.framework */,
+				C45955232425093B00A66BE3 /* FirebaseAuth.framework */,
+				C459551F2425093400A66BE3 /* FirebaseDatabase.framework */,
+				E8BAB90E88C7D4B155A1D79B /* Pods_chachat.framework */,
+				8B95195E18E5C5CC611B6DFB /* Pods_chachatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C45954E62424141C00A66BE3 = {
 			isa = PBXGroup;
 			children = (
 				C45954F12424141C00A66BE3 /* chachat */,
 				C45955082424141E00A66BE3 /* chachatTests */,
 				C45954F02424141C00A66BE3 /* Products */,
+				D6817E3A81716C5B333B79ED /* Pods */,
+				0D399542C39A2A67B1AC5D4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C45954F02424141C00A66BE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C45954EF2424141C00A66BE3 /* chachat.app */,
+				C45954EF2424141C00A66BE3 /* ChaChat.app */,
 				C45955052424141E00A66BE3 /* chachatTests.xctest */,
 			);
 			name = Products;
@@ -85,7 +130,11 @@
 				C45954F82424141C00A66BE3 /* Main.storyboard */,
 				C45954FB2424141E00A66BE3 /* Assets.xcassets */,
 				C45954FD2424141E00A66BE3 /* LaunchScreen.storyboard */,
+				C45955142424156700A66BE3 /* GoogleService-Info.plist */,
 				C45955002424141E00A66BE3 /* Info.plist */,
+				C4595516242422FF00A66BE3 /* LoginRegisterViewController.swift */,
+				C45955182424316A00A66BE3 /* Utilities.swift */,
+				C459551A2424F9AC00A66BE3 /* Constants.swift */,
 			);
 			path = chachat;
 			sourceTree = "<group>";
@@ -99,6 +148,17 @@
 			path = chachatTests;
 			sourceTree = "<group>";
 		};
+		D6817E3A81716C5B333B79ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5435D61DAA4D57FF24A41DB3 /* Pods-chachat.debug.xcconfig */,
+				56CDA5EB5776814F4B3E30A5 /* Pods-chachat.release.xcconfig */,
+				5129A73BBEFA27A2B5A3549C /* Pods-chachatTests.debug.xcconfig */,
+				D4685142978057BDB822798E /* Pods-chachatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C459550E2424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachat" */;
 			buildPhases = (
+				D14A9D99605E0A001B52CD29 /* [CP] Check Pods Manifest.lock */,
 				C45954EB2424141C00A66BE3 /* Sources */,
 				C45954EC2424141C00A66BE3 /* Frameworks */,
 				C45954ED2424141C00A66BE3 /* Resources */,
+				EB5F03D42EA8044732032102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -116,13 +178,14 @@
 			);
 			name = chachat;
 			productName = chachat;
-			productReference = C45954EF2424141C00A66BE3 /* chachat.app */;
+			productReference = C45954EF2424141C00A66BE3 /* ChaChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C45955042424141E00A66BE3 /* chachatTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45955112424141E00A66BE3 /* Build configuration list for PBXNativeTarget "chachatTests" */;
 			buildPhases = (
+				3E33852CAFFE2A40B4ECE972 /* [CP] Check Pods Manifest.lock */,
 				C45955012424141E00A66BE3 /* Sources */,
 				C45955022424141E00A66BE3 /* Frameworks */,
 				C45955032424141E00A66BE3 /* Resources */,
@@ -181,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45954FF2424141E00A66BE3 /* LaunchScreen.storyboard in Resources */,
+				C45955152424156700A66BE3 /* GoogleService-Info.plist in Resources */,
 				C45954FC2424141E00A66BE3 /* Assets.xcassets in Resources */,
 				C45954FA2424141C00A66BE3 /* Main.storyboard in Resources */,
 			);
@@ -195,6 +259,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E33852CAFFE2A40B4ECE972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chachatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14A9D99605E0A001B52CD29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chachat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5F03D42EA8044732032102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chachat/Pods-chachat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chachat/Pods-chachat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chachat/Pods-chachat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45954EB2424141C00A66BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +331,9 @@
 				C45954F72424141C00A66BE3 /* ViewController.swift in Sources */,
 				C45954F32424141C00A66BE3 /* AppDelegate.swift in Sources */,
 				C45954F52424141C00A66BE3 /* SceneDelegate.swift in Sources */,
+				C45955192424316A00A66BE3 /* Utilities.swift in Sources */,
+				C4595517242422FF00A66BE3 /* LoginRegisterViewController.swift in Sources */,
+				C459551B2424F9AC00A66BE3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,16 +491,19 @@
 		};
 		C459550F2424141E00A66BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5435D61DAA4D57FF24A41DB3 /* Pods-chachat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VNDXYUFZT;
 				INFOPLIST_FILE = chachat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,16 +511,19 @@
 		};
 		C45955102424141E00A66BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CDA5EB5776814F4B3E30A5 /* Pods-chachat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VNDXYUFZT;
 				INFOPLIST_FILE = chachat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrao.chachat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,6 +531,7 @@
 		};
 		C45955122424141E00A66BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5129A73BBEFA27A2B5A3549C /* Pods-chachatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +553,7 @@
 		};
 		C45955132424141E00A66BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4685142978057BDB822798E /* Pods-chachatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
